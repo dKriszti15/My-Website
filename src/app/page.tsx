@@ -2,9 +2,10 @@
 
 import CustomNavbar from "@/components/CustomNavbar";
 
-
-export default function Navbar() {
+export default function Home() {
   return (
-    <CustomNavbar/>
+    <>
+      <CustomNavbar/>
+    </>
   );
 }
