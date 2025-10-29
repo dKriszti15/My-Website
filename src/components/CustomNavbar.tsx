@@ -6,13 +6,14 @@ import GitHubButton from "./GitHubButton";
 import MobilePageNavigations from "./MobilePageNavigations";
 import { useContext } from "react";
 import { ThemeContext } from "@/contexts/theme/ThemeContext";
+import LinkedInButton from "./LinkedInButton";
 
 export default function CustomNavbar(){
 
     const {theme, switchTheme} = useContext(ThemeContext);
 
     return (
-        <Menubar className={`flex justify-between items-center px-5 pt-1 h-16 relative ${theme}`}>
+        <Menubar className={`flex justify-between items-center px-5 pt-1 h-16 relative w-[80%] mx-auto ${theme}`}>
 
             {/* left */}
             <ThemeSwitcher/>
@@ -22,10 +23,15 @@ export default function CustomNavbar(){
 
             <div className="flex items-center space-x-2">
                 {/* mobile screen */}
-                <MobilePageNavigations/>
+                <div className="md:hidden ">
+                    <MobilePageNavigations/>
+                </div>
 
                 {/* right */}
-                <GitHubButton/>  
+                <div className="hidden md:block flex items-center space-x-2">
+                    <LinkedInButton/>
+                    <GitHubButton/>  
+                </div>
             </div>
 
         </Menubar>

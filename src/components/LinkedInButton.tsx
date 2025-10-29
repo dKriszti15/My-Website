@@ -1,20 +1,20 @@
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Button } from "./ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
-export default function GitHubButton(){
+export default function LinkedInButton(){
     return(
         <>
             <Tooltip>
                 <TooltipTrigger asChild>
                     <Button className="h-12 w-12">
-                        <a href="https://github.com/dKriszti15?tab=repositories">
-                            <GitHubIcon fontSize="large"/>
+                        <a href="https://www.linkedin.com/in/dacz-krisztian/">
+                            <LinkedInIcon fontSize='large'/>
                         </a>
                     </Button>
                 </TooltipTrigger>
                 <TooltipContent>
-                    <p>View my GitHub profile.</p>
+                    <p>View my LinkedIn profile.</p>
                 </TooltipContent>
             </Tooltip>
         </>

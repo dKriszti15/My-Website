@@ -21,7 +21,7 @@ export const ThemeProvider = ({
   const [theme, setTheme] = useState('dark');
 
   const switchTheme = () => {
-    const newTheme = theme == 'dark' ? '' : 'dark' 
+    const newTheme = theme == 'dark' ? 'light' : 'dark' 
     setTheme(newTheme);
   }
 
@@ -32,6 +32,12 @@ export const ThemeProvider = ({
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  useEffect(() => {
+    const html = document.documentElement; // <html>
+    html.classList.remove("light", "dark");
+    html.classList.add(theme);
   }, [theme]);
 
   return (

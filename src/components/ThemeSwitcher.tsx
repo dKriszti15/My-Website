@@ -1,4 +1,5 @@
-import { MoonIcon, SunIcon } from "lucide-react";
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import { Button } from "./ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { useContext } from "react";
@@ -11,11 +12,11 @@ export default function ThemeSwitcher(){
             <Tooltip>
             <TooltipTrigger asChild>
                 <Button className="h-12 w-12" onClick={switchTheme}>
-                    {theme == '' ? (<SunIcon/>) : (<MoonIcon/>)}
+                    {theme == 'light' ? (<LightModeOutlinedIcon/>) : (<DarkModeOutlinedIcon/>)}
                 </Button>
             </TooltipTrigger>
             <TooltipContent>
-                <p>Switch to {theme == '' ? 'dark' : 'light'} theme.</p>
+                <p>Switch to {theme == 'light' ? 'dark' : 'light'} theme.</p>
             </TooltipContent>
             </Tooltip>
         </>
