@@ -1,3 +1,4 @@
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Button } from "./ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import GitHubIcon from "@mui/icons-material/GitHub";
