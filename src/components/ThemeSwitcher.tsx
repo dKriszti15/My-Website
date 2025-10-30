@@ -11,7 +11,7 @@ export default function ThemeSwitcher(){
         <> 
             <Tooltip>
             <TooltipTrigger asChild>
-                <Button className="h-12 w-12" onClick={switchTheme}>
+                <Button className="h-14 w-14" onClick={switchTheme}>
                     {theme == 'light' ? (<LightModeOutlinedIcon/>) : (<DarkModeOutlinedIcon/>)}
                 </Button>
             </TooltipTrigger>

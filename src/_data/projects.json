@@ -1,54 +1,27 @@
 {
     "projects": [{
-        "title":"ASD",
-        "description": "description"
+        "title":"Order-Manager",
+        "description": "Frontend part of a full-stack web application that offers a user-friendly interface to manage an online store's orders. Includes caching, REST API, incorporates CRUD operations from backend. "
     }, {
-        "title":"ASD2",
-        "description": "description2"
+        "title":"Order-Manager-Backend",
+        "description": "RESTful API developed with Spring Boot and JPA, that realizes order-management via CRUD operations. "
     },{
-        "title":"ASD3",
-        "description": "description"
+        "title":"Personal-Finance-Tracker-Frontend",
+        "description": "Frontend of a web application where users can track their income and expenses, view their financial situation through charts, and even automatically import their transactions via bank API integration. "
     },{
-        "title":"ASD4",
-        "description": "description"
+        "title":"Personal-Finance-Tracker-Backend",
+        "description": "Backend of web application where users can track their income and expenses, view their financial situation through charts, and even automatically import their transactions via bank API integration. "
     },{
-        "title":"ASD5",
-        "description": "description"
+        "title":"Online-Library",
+        "description": "Library webapp realised with node.js, npm, express, session and of course html and css. "
     },{
-        "title":"ASD6",
-        "description": "description"
+        "title":"SQUEAL-MiniDBMS",
+        "description": "The Database Management System (DBMS) project is a Java-based application that provides essential functionalities for managing databases and tables. "
     },{
-        "title":"ASD7",
-        "description": "description"
+        "title":"OpenGL-Project",
+        "description": "A man shaped object moves around the map, collecting pulsating flowers (which are randomly spread on the map), while dodging deadly axes. "
     },{
-        "title":"ASD8",
-        "description": "description"
-    },{
-        "title":"ASD9",
-        "description": "description"
-    },{
-        "title":"ASD10",
-        "description": "description"
-    },{
-        "title":"ASD12",
-        "description": "description"
-    },{
-        "title":"ASD13",
-        "description": "description"
-    },{
-        "title":"ASD14",
-        "description": "description"
-    },{
-        "title":"ASD15",
-        "description": "description"
-    },{
-        "title":"ASD16",
-        "description": "description"
-    },{
-        "title":"ASD17",
-        "description": "description"
-    },{
-        "title":"ASD18",
-        "description": "description"
+        "title":"Snake-Extra",
+        "description": "This projects contains the implementation of the old-school snake mobile game, but , of course spiced with numerous features. "
     }]
 }

@@ -18,21 +18,12 @@ export const ThemeProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   const switchTheme = () => {
     const newTheme = theme == 'dark' ? 'light' : 'dark' 
     setTheme(newTheme);
   }
-
-  useEffect(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved) setTheme(saved);
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem('theme', theme);
-  }, [theme]);
 
   useEffect(() => {
     const html = document.documentElement; // <html>

@@ -7,7 +7,7 @@ export default function LinkedInButton(){
         <>
             <Tooltip>
                 <TooltipTrigger asChild>
-                    <Button className="h-12 w-12">
+                    <Button className="h-14 w-14">
                         <a href="https://www.linkedin.com/in/dacz-krisztian/">
                             <LinkedInIcon fontSize='large'/>
                         </a>

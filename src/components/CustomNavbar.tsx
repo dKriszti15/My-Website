@@ -32,7 +32,7 @@ export default function CustomNavbar() {
 
   return (
     <Menubar
-      className={`fixed top-0 left-0 right-0 w-[80%] mx-auto z-50 flex justify-between items-center px-2 pt-1 h-16 transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 w-[80%] mx-auto z-50 flex justify-between items-center px-4 pt-1 h-20 transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
         } ${theme}`}
 

@@ -10,7 +10,7 @@ export default function MobilePageNavigations(){
             <Sheet>
                 <SheetTitle/>
                 <SheetTrigger asChild>
-                    <Button size="icon" className="h-12 w-12">
+                    <Button size="icon" className="h-14 w-14">
                         <MenuIcon />
                     </Button>
                 </SheetTrigger>

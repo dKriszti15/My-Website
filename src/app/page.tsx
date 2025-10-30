@@ -17,7 +17,7 @@ export default function Home() {
           {projects.map((proj) => (
             <Card
               key={proj.title}
-              className="p-6 shadow-md hover:shadow-lg transition w-80"
+              className="p-6 transition w-80"
             >
               <CardTitle className="text-xl">
                 {proj.title}
