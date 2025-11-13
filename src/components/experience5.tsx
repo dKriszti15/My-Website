@@ -37,10 +37,10 @@ const Experience5 = ({
   ],
 }: Experience5Props) => {
   return (
-    <section className="min-h-screen flex items-center justify-center py-16 md:py-32">
+    <section className="min-h-screen flex items-center justify-center py-16 md:py-24">
       <div className="container">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-12 font-serif text-4xl font-medium leading-tight md:text-7xl">
+          <h2 className="mb-12 text-4xl font-medium leading-tight md:text-7xl text-center">
             {title}
           </h2>
           <div className="space-y-8">

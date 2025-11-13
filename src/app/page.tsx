@@ -15,7 +15,7 @@ export default function Home() {
       <div id="experience">
         <Experience/>
       </div>
-      <div id="projects" className="min-h-screen flex flex-col items-center justify-center p-22">
+      <div id="projects" className="min-h-screen flex flex-col items-center justify-center p-8">
         <ProjectCards/>  
       </div>
     </>

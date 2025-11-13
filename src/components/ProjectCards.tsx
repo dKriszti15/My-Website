@@ -10,7 +10,7 @@ export default function ProjectCards(){
 
     return (
         <>
-            <h1 className="text-3xl font-bold mb-6">My Projects</h1>
+            <h1 className="text-6xl mb-6">Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
             {projects.map((proj) => {
                 if (proj.show) {
