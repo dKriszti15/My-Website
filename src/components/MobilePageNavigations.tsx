@@ -16,7 +16,7 @@ export default function MobilePageNavigations(){
                 </SheetTrigger>
                 <SheetContent side="right" className="flex flex-col gap-1 w-[30%]">
                     <Button>
-                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
                     </Button>
                     <Button>
                         <a href="#projects">Projects</a>

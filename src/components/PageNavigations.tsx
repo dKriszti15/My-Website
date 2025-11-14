@@ -5,7 +5,7 @@ export default function PageNavigations(){
         <>
             <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 space-x-4">
                 <Button className="h-14">
-                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
                 </Button>
                 <Button className="h-14">
                     <a href="#projects">Projects</a>

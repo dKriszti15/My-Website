@@ -51,7 +51,7 @@ const Experience5 = ({
               ({ title, details, period, company, descriptions }, idx) => (
                 <div
                   key={idx}
-                  className="border-border border-b pb-6 last:border-b-0 bg-card p-6 rounded-lg"
+                  className="pb-6 last:border-b-0 bg-card p-6 rounded-lg"
                 >
                   <div className="flex flex-col gap-4 md:flex-row md:items-start">
                     <div className="md:w-2/3">
