@@ -1,4 +1,5 @@
-import React from "react";
+import Technologies from "../Technologies";
+
 interface ExperienceItem {
   title: string;
   details: string;
@@ -37,27 +38,24 @@ const Experience5 = ({
   ],
 }: Experience5Props) => {
   return (
+    <>
+    
     <section className="min-h-screen flex items-center justify-center py-16 md:py-24">
       <div className="container">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-12 text-4xl font-medium leading-tight md:text-7xl text-center">
+          <h2 className="mb-6 text-4xl md:text-7xl text-center">
             {title}
           </h2>
-          <div className="space-y-8">
+          <div className="space-y-3">
             {experience.map(
-              ({ title, details, period, company, logo, descriptions }, idx) => (
+              ({ title, details, period, company, descriptions }, idx) => (
                 <div
                   key={idx}
-                  className="border-border border-b pb-6 last:border-b-0"
+                  className="border-border border-b pb-6 last:border-b-0 bg-card p-6 rounded-lg"
                 >
                   <div className="flex flex-col gap-4 md:flex-row md:items-start">
                     <div className="md:w-2/3">
                       <div className="mb-2 flex items-center gap-3">
-                        <img
-                          src={logo}
-                          alt={``}
-                          className="h-5 object-contain"
-                        />
                         <h3 className="text-xl">{title}</h3>
                       </div>
                       <p className="text-muted-foreground mb-3 text-sm">
@@ -81,6 +79,9 @@ const Experience5 = ({
         </div>
       </div>
     </section>
+
+    <section><Technologies/></section>
+    </>
   );
 };
 export { Experience5 };

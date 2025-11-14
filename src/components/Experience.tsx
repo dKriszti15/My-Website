@@ -1,4 +1,4 @@
-import { Experience5 } from "./experience5";
+import { Experience5 } from "./ui/experience5";
 
 export default function Experience(){
     return(
