@@ -11,6 +11,12 @@
         "techStack": ["Java", "Spring Boot", "MySQL", "JPA", "Hibernate"],
         "show": true
     },{
+        "title":"Automatic License Plate Recognizer",
+        "description":"Application that can detect cars' license plates, and WILL be able to read them as well.",
+        "techStack": ["Python", "YOLO", "OpenCV", "Roboflow"],
+        "show": true
+    },
+    {
         "title":"Personal-Finance-Tracker-Frontend",
         "description": "Frontend of a web application where users can track their income and expenses, view their financial situation through charts, and even automatically import their transactions via bank API integration. ",
         "techStack": ["TypeScript", "Next.js"],

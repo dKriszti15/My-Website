@@ -3,6 +3,7 @@ import About from "@/components/About";
 import CustomNavbar from "@/components/CustomNavbar";
 import Experience from "@/components/Experience";
 import ProjectCards from "@/components/ProjectCards";
+import Footer from "@/components/Footer";
 
 
 
@@ -24,6 +25,8 @@ export default function Home() {
       <div id="projects" className="min-h-screen flex flex-col items-center justify-center p-8">
         <ProjectCards/>  
       </div>
+
+      <Footer/>
     </>
   );
 }
