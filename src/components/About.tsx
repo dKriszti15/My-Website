@@ -16,7 +16,7 @@ export default function About() {
                 <h1 className="text-5xl font-bold mb-2">Dácz Krisztián</h1>
                 <p className="text-xl text-muted-foreground">Software Developer & Bug Creator</p>
                   
-                  <div className="text-center space-y-1">
+                  <div className="text-center space-y-2">
                       <p className="text-muted-foreground">📧 krisztiandacz18@gmail.com</p>
                       <p className="text-muted-foreground">📍 Cluj-Napoca, Romania</p>
                   </div>
