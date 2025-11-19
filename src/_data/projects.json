@@ -42,6 +42,7 @@
         "title":"Snake-Extra",
         "description": "This projects contains the implementation of the old-school snake mobile game, but , of course spiced with numerous features. ",
         "techStack": ["Java", "Swing"],
+        "image": "/snake.png",
         "show": true
     },{
         "title":"OpenGL-Project",
