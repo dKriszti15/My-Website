@@ -1,11 +1,18 @@
 {
-    "projects": [{
+    "projects": [
+    {
+        "title":"Personal Website",
+        "description":"You're just looking at it right now :))",
+        "techStack": ["Next.js", "Shadcn/ui", "Tailwind", "Vercel"],
+        "image": "/.png",
+        "show": false
+    },{
         "title":"Order-Manager",
         "description": "Web application that offers a user-friendly interface to manage an online store's orders. Includes caching, REST API, incorporates CRUD operations from backend. ",
         "image": "/wso.jpeg",
         "techStack": ["TypeScript", "React", "Keycloak"],
         "show": true
-    }, {
+    },{
         "title":"Order-Manager-Backend",
         "description": "RESTful API developed with Spring Boot and JPA, that realizes order-management via CRUD operations. ",
         "techStack": ["Java", "Spring Boot", "MySQL", "JPA", "Hibernate"],
@@ -16,8 +23,13 @@
         "techStack": ["Python", "YOLO", "OpenCV", "Roboflow"],
         "image": "/alpr.png",
         "show": true
-    },
-    {
+    },{
+        "title":"Football-Fixtures-Predicter",
+        "description":"Application that provides a dashboard for visualizing AI-predicted football matchups' winner.",
+        "techStack": ["Next.js", "Shadcn/ui", "Tailwind", "Express", "Python"],
+        "image": "/.png",
+        "show": false
+    },{
         "title":"Personal-Finance-Tracker-Frontend",
         "description": "Frontend of a web application where users can track their income and expenses, view their financial situation through charts, and even automatically import their transactions via bank API integration. ",
         "techStack": ["TypeScript", "Next.js"],
