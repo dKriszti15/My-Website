@@ -5,11 +5,7 @@ import Experience from "@/components/Experience";
 import ProjectCards from "@/components/ProjectCards";
 import Footer from "@/components/Footer";
 
-
-
 export default function Home() {
-
-
 
   return (
     <>

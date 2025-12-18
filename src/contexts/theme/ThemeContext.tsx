@@ -18,7 +18,7 @@ export const ThemeProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const switchTheme = () => {
     const newTheme = theme == 'dark' ? 'light' : 'dark' 
