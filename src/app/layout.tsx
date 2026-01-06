@@ -17,6 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dácz Krisztián",
   description: "Personal webpage.",
+  icons: {
+    icon:
+      {
+        url: "https://github.com/dKriszti15.png"
+      }
+  },
 };
 
 export default function RootLayout({
