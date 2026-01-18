@@ -18,6 +18,12 @@
         "techStack": ["JavaScript", "Express", "Python", "Flask", "RandomForestClassifier"],
         "show": true
     },{
+        "title":"Help me study",
+        "description":"Study helper webapp that provides PDF & text summarization, flashcard generation from text.",
+        "techStack": ["React", "Vite", "Python", "Flask", "GroqAPI", "Redis", "Docker"],
+        "image": "",
+        "show": false
+    },{
         "title":"Order-Manager",
         "description": "Web application that offers a user-friendly interface to manage an online store's orders. Includes caching, REST API, incorporates CRUD operations from backend. ",
         "image": "/wso.jpeg",
