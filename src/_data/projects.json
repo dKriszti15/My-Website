@@ -36,7 +36,7 @@
         "show": true
     },{
         "title":"ANPR",
-        "description":"Application that can detect cars' license plates, and WILL be able to read them as well.",
+        "description":"Application that detects and reads cars' license plates in almost real time.",
         "techStack": ["Python", "YOLO", "OpenCV", "Roboflow"],
         "image": "/alpr.png",
         "show": true
